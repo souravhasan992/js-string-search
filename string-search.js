@@ -10,20 +10,20 @@ const searching ='laptop';
 
 //index of
 const output =[];
-for (const product of products){
+/* for (const product of products){
     if(product.toLowerCase().indexOf(searching.toLowerCase()) != -1){
         output.push(product);
         console.log(output);
     }
-}
+} */
 
-/* //includes
+//includes
 for (const product of products){
     if ( product.toLowerCase().includes(searching.toLowerCase())){
         output.push(product);
         console.log(output);
     }
-} */
+}
 
 /* //starts With
 for (const product of products){
