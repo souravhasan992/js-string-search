@@ -18,16 +18,16 @@ const output =[];
 } */
 
 //includes
-for (const product of products){
+/* for (const product of products){
     if ( product.toLowerCase().includes(searching.toLowerCase())){
         output.push(product);
         console.log(output);
     }
-}
+} */
 
-/* //starts With
+//starts With
 for (const product of products){
     if (product.toLowerCase().startsWith(searching.toLowerCase())){
         output.push(product)
     }
-} */
+}
