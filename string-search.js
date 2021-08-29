@@ -6,7 +6,7 @@ const products =[
     'black color techno mobile with 2GB ram'
 ];
 
-const searching ='laptop';
+const searching ='dell';
 
 //index of
 const output =[];
@@ -31,3 +31,4 @@ for (const product of products){
         output.push(product)
     }
 }
+console.log(output)
